@@ -1,5 +1,5 @@
 name = "Max Mustermann"
-alter = 30
+alter = "30"
 geschlecht = "männlich"
 groesse = "1,80m"
 gewicht = "75kg"
@@ -25,6 +25,6 @@ Beruf = "SysAdmin"
 Hobby = "Zocken"
 Charaktereigenschaft = "immer gut drauf"
 
-print(f"{Name} ist ein {Alter} Jahre alter {Geschlecht} mit {Haarfarbe}en Haaren und {Augenfarbe}en Augen. "
+print(f"{Name} ist {Alter} Jahre alt, {Geschlecht} mit {Haarfarbe}en Haaren und {Augenfarbe}en Augen. "
       f"Er ist {Größe} groß, wiegt {Gewicht}, arbeitet als {Beruf}, zockt gerne und ist {Charaktereigenschaft}.")
 
