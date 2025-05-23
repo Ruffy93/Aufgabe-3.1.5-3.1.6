@@ -30,6 +30,6 @@ print (f"Leistung {Leistung} PS")
 Motor_Typ, Motor_Hubraum = Motor_Hubraum, Motor_Typ
 
 
-print("Getauschte Variable")
+print("\nGetauschte Variable")
 print(f"Hubraum {Motor_Hubraum}")
 print(f"Motorbauform {Motor_Typ}")
