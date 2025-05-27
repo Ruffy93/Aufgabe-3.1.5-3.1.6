@@ -8,7 +8,7 @@ print(f"Du hast {versuche} Versuche, enttäusch mich nicht!")
 
 while True:
     tipp = int(input("Deine Zahl:"))
-    versuche -= 0
+    versuche -= 1
 
     if tipp == zahl:
         print(f"DU HAST DIE RICHTIGE ZAHL, LUCKY BOYYYYY! Versuche: {versuche}")
